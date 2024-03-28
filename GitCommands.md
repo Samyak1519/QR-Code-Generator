@@ -12,6 +12,6 @@ echo "# QR-Code-Generator" >> README.md
 ## Updating the Readme
 
 1. git add "File Name.extension"
-2. git remote add origin https://github.com/Samyak1519/QR-Code-Generator.git
+2. git commit -m "Added/Updated File Name"
 3. git branch -M main
 4. git push -u origin main
