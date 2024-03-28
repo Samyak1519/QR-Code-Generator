@@ -1,0 +1,10 @@
+body {
+    padding: 20px;
+    background-color: grey;
+}
+
+.containerMe {
+    border-radius: 30px;
+    padding: 5px;
+    background-color: wheat;
+}
