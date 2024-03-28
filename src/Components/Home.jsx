@@ -29,7 +29,6 @@ function Home() {
           style={{
             paddingTop: "8px",
             width: "100%",
-
             textAlign: "center",
           }}
         >
@@ -38,7 +37,7 @@ function Home() {
             label="Enter Link Here"
             multiline
             variant="standard"
-            style={{ marginRight: "30px", width: "60%" }}
+            style={{ marginRight: "30px", width: "100%" }}
             onChange={handleQRCode}
           />
 
@@ -51,13 +50,13 @@ function Home() {
             Generate QR
           </Button>
         </div>
-
+        <br />
         {/**************************** QR CODE Area ****************************************/}
 
         <div
           style={{
             border: "5px double grey",
-            height: "40%",
+            height: "50%",
             width: "100%",
             padding: "25px",
             marginTop: "5%",
